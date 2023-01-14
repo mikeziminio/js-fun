@@ -21,3 +21,5 @@ https://developer.mozilla.org/ru/docs/Web/JavaScript/Typed_arrays
 https://developer.mozilla.org/ru/docs/Web/JavaScript/Memory_Management
 
 https://developer.mozilla.org/ru/docs/Web/JavaScript/EventLoop
+
+https://github.com/HowProgrammingWorks/Index/blob/master/Courses/Asynchronous.md
