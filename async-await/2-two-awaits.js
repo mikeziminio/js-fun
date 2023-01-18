@@ -7,16 +7,16 @@ function fun1() {
 }
 
 async function fun2() {
-    console.log(2);
+    console.log(2); /* 2 */
     await fun1(); // первый await - дойдя до него функция СРАЗУ вернёт Promise, а всё остальное обернётся в then
-    console.log(4);
+    console.log(4); /* 4 */
     await fun1(); // second await
-    console.log(5);
+    console.log(5); /* 5 */
     return 'just string';
 }
 
-console.log(1);
+console.log(1); /* 1 */
 
 /** @type {Promise} p  */
 let p = fun2();
-console.log(3);
+console.log(3); /* 3 */
